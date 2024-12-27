@@ -39,7 +39,7 @@ bool descendingCompare(int a, int b) {
 
 void setNumber(int& n, int i) {
     while (true) {
-        cout << i << "번째 " << "정수 요소 입력: ";
+        cout << i + 1 << "번째 " << "정수 요소 입력: ";
         string input;
         cin >> input;
 
@@ -91,7 +91,7 @@ int main(int argc, char const* argv[]) {
 
     // 정렬 방식 설정
     while (true) {
-        cout << "---정렬 방향 설정---" << endl;
+        cout << endl << "---정렬 방향 설정---" << endl;
         cout << "1: 오름차순, 2: 내림차순" << endl;
 
         cout << "입력: ";
@@ -125,11 +125,19 @@ int main(int argc, char const* argv[]) {
         break;
     }
 
+
+	cout << endl << "-----결과출력-----" << endl;
+
     // 정렬 결과 출력
+	cout << "정렬 결과: ";
     for (auto it = arr; it < arr + size; it++) {
         cout << *it << " ";
     }
     cout << endl;
+
+	// 배열 요소의 합과 평균 출력
+	cout << "배열 요소의 합: " << getArraySum(arr, size) << endl;
+	cout << "배열 요소의 평균: " << getArrayAvg(arr, size) << endl;
 
     return 0;
 }
