@@ -27,3 +27,5 @@
     ![KakaoTalk_20241227_134937698](https://github.com/user-attachments/assets/07a2c670-efff-4ad6-ab13-e8dce6823028)
 - 하는 방식으로 동작하는 정렬 알고리즘입니다.
     - 시간복잡도 O(N logN)
+
+### 나머지는 생략하겠습니다.
