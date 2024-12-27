@@ -57,7 +57,6 @@ void setNumber(int& n, int i) {
 int main(int argc, char const* argv[]) {
     int size;
     CompareMode compareMode{ ASCEND };
-    stringstream ss;
 
     // 배열 크기 입력
     while (true) {
