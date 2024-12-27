@@ -138,5 +138,8 @@ int main(int argc, char const* argv[]) {
 	cout << "배열 요소의 합: " << getArraySum(arr, size) << endl;
 	cout << "배열 요소의 평균: " << getArrayAvg(arr, size) << endl;
 
+    // 배열 해제
+    delete[] arr;
+
     return 0;
 }
